@@ -1,0 +1,19 @@
+[merge]
+  ff = false
+[pull]
+  rebase = true
+[push]
+  default = tracking
+[alias]
+  ci = commit
+  co = checkout
+  com = checkout master
+  dh = diff HEAD^
+  ls = log --graph --decorate --oneline
+  ll = log --graph --decorate --stat --pretty=fuller
+  s = status --short --branch
+  pom = push origin master
+  rom = rebase origin/master
+  fo = fetch origin
+  fom = "!git com && git fo && git rom"
+  rpo = remote prune origin
