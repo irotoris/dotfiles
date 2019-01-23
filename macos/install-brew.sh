@@ -13,11 +13,11 @@ brew cask install firefox
 brew cask install visual-studio-code
 brew cask install atom
 brew cask install java
-brew cask install git
-brew cask install go
-brew cask install goenv
-brew cask install python
-brew cask install pyenv
+brew install git
+brew install go
+brew install goenv
+brew install python
+brew install pyenv
 
 brew cask install google-cloud-sdk
 brew cask install virtualbox
