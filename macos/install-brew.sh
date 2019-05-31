@@ -25,3 +25,4 @@ brew cask install docker
 
 brew install peco
 brew install jq
+brew install zsh
