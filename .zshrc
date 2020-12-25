@@ -1,3 +1,6 @@
+# alias
+alias k="kubectl"
+
 # peco history
 # peco
 function peco-history-selection() {
