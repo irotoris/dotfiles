@@ -8,6 +8,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask visual-studio-code
 brew install zsh-completions
+brew install starship
 
 brew install --cask corretto
 brew install git

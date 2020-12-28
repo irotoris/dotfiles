@@ -1,6 +1,9 @@
 # alias
 alias k="kubectl"
 
+# starship
+eval "$(starship init zsh)"
+
 # peco history
 # peco
 function peco-history-selection() {
