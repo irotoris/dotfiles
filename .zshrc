@@ -22,15 +22,18 @@ eval "$(pyenv init -)"
 # pyenv-virtualenv
 eval "$(pyenv virtualenv-init -)"
 
+# sdkman
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 # Java
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home
-export PATH="$JAVA_HOME/bin:$PATH"
+export JAVA_HOME=$HOME/.sdkman/candidates/java/current
+export PATH=$JAVA_HOME/bin:$PATH
 
 # go
-export GOROOT=/usr/local/opt/go/libexec
+export GOENV_ROOT=$HOME/.goenv
+export PATH=$GOENV_ROOT/bin:$PATH
+eval "$(goenv init -)"
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export GOBIN=$GOPATH/bin
 
 # ruby
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
