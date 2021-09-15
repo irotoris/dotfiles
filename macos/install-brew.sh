@@ -11,7 +11,6 @@ brew install zsh-completions
 brew install starship
 brew install git
 brew install go
-brew install goenv
 brew install pyenv
 brew install pyenv-virtualenv
 brew install rbenv
@@ -27,3 +26,6 @@ brew install --cask font-fira-code
 brew install --cask karabiner-elements
 brew install --cask sourcetree
 brew install --cask deepl
+
+brew install tflint
+brew install terraform-docs
