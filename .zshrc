@@ -1,5 +1,10 @@
 # alias
 alias k="kubectl"
+alias g="git"
+alias a="cd .."
+alias aa="cd ../.."
+alias aaa="cd ../../.."
+alias aaaa="cd ../../../.."
 
 # starship
 eval "$(starship init zsh)"
